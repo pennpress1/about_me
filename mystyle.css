@@ -1,0 +1,117 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0em;
+}
+
+/*header*/
+
+.masthead {
+  background-image: url("img/clouds_sky_art.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  height: 19em;
+  text-align: center;
+  border-bottom: solid 2em #000000;
+  margin-top: -3em;
+}
+
+.masthead-intro {
+  font-size: 3em;
+  font-weight: bolder;
+  padding-top: .90em;
+}
+
+.masthead-heading {
+  font-size: 5em;
+  font-weight: bolder;
+  margin-top: -.60em;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+  color: #000000;
+}
+
+h1 {
+  color: #98b0d9;
+}
+
+h3 {
+  font-size: 1em;
+  color: #000000;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+/*content*/
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*footer*/
+
+.content-footer {
+  text-align: center;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c3d9ff+0,b1c8ef+41,98b0d9+100;Lavender+3D */
+  background: #c3d9ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #c3d9ff 0%, #b1c8ef 41%, #98b0d9 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #c3d9ff 0%, #b1c8ef 41%, #98b0d9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #c3d9ff 0%, #b1c8ef 41%, #98b0d9 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c3d9ff', endColorstr='#98b0d9', GradientType=0);
+  /* IE6-9 */
+  border-top: solid .5em #000000;
+  border-bottom: solid 1em #000000;
+  height: 12em;
+  margin-top: 5em;
+}
+
+.footer-section{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3em;
+  
+}
+
+.social li {
+  list-style: none;
+  display: inline;
+  padding: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.content-footer p a {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 320px) {
+  p {
+    font-size: .5em;
+    font-weight: normal;
+  }
+
+  @media only screen and (max-width: 480px) {
+  p {
+    font-size: 1em;
+    font-weight: normal;
+  }
+}
